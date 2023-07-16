@@ -1,17 +1,21 @@
 '''
 1. Ejercicio: Dado un número, imprime si es positivo o negativo.
 '''
-x=0
+x=-2
 if x>0:
     print("x es positivo")
 elif x<0:
     print("x es negativo")
+else:
+    print("x es igual a cero")
 
 '''
 2. Ejercicio: Dado un número, imprime si es par o impar.
 '''
-x=0
-if x%2==0:
+x=46
+if x==0:
+    print("x es igual a cero")
+elif x%2==0:
     print("x es un número par")
 else:
     print("x es impar")
@@ -33,3 +37,5 @@ elif b>a:
         print("el máximo es:",c)
 else:
     print("el máximo es:",c)
+
+# ejercicios condicionales completados

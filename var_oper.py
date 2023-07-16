@@ -1,5 +1,4 @@
 '''
-Variables y Operadores
 1. Ejercicio: Crea una variable llamada nombre y asígnale tu nombre como valor.
 Luego, imprime la variable.
 '''
@@ -29,3 +28,5 @@ a=17
 b=3
 resto=a%b
 print(resto)
+
+# ejercicios variables y operadores completados
