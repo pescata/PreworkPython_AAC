@@ -3,11 +3,10 @@
 '''
 print("Ejercicio_1: positivo vs. negativo")
 
-x=-2
+x=int(input("introduce un número: "))
 if x>0:
-    print("x es positivo")
+    print(f"el número {x} es positivo")
 elif x<0:
-    print("x es negativo")
+    print(f"el número {x} es negativo")
 else:
-    print("x es igual a cero")
-
+    print(f"el número {x} no es ni positivo ni negativo")

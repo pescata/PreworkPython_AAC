@@ -6,6 +6,4 @@ print("Ejercicio_3: bucle suma")
 suma=0
 for numero in range (1,101):
     suma+=numero
-print(suma)
-
-# ejercicios bucles completados
+print("la suma de los números del 1 al 100 es: ",suma)

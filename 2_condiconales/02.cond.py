@@ -3,10 +3,10 @@
 '''
 print("Ejercicio_2: par vs. impar")
 
-x=46
+x=int(input("introduce un número: "))
 if x==0:
-    print("x es igual a cero")
+    print(f"el número {x} es igual a cero")
 elif x%2==0:
-    print("x es un número par")
+    print(f"el número {x} es un número par")
 else:
-    print("x es impar")
+    print(f"el número {x} es impar")

@@ -6,4 +6,3 @@ print("Ejercicio_1: variable nombre")
 
 name="Alberto"
 print(name)
-

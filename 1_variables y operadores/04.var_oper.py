@@ -4,4 +4,4 @@
 a=17
 b=3
 resto=a%b
-print(resto)
+print(f"el resto de dividir {a} entre {b} es: ",resto)

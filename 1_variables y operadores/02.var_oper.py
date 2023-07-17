@@ -3,6 +3,7 @@
 respectivamente. Luego, imprime la suma de a y b .
 '''
 print("Ejercicio_2: suma variables")
+
 a=5
 b=10
-print(a+b)
+print(f"la suma de {a} y {b} es: ",a+b)

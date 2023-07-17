@@ -3,7 +3,9 @@
 '''
 print("Ejercicio_2: imprime números pares bucle while")
 
+n=int(input("introduce un número: "))
+print(f"los números pares hasta {n} son: ")
 i=2
-while i<=20:
-    print(i)
+while i<=n:
+    print(i,end=" ")
     i+=2

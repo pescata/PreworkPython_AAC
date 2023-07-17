@@ -2,7 +2,7 @@
 4. Ejercicio: Define una función que tome un número y retorne la suma de sus
 dígitos.
 '''
-print("Ejercicio_4: función suma dígitos de un número")
+print("Ejercicio_4: función que suma los dígitos de un número")
 
 n=int(input("introduzca un número: "))
 def suma_valores(n):

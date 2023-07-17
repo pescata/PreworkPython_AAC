@@ -2,7 +2,7 @@
 2. Ejercicio: Define una función que tome un número y retorne una lista de sus
 divisores.
 '''
-print("Ejercicio_2: función divisores de un número")
+print("Ejercicio_2: función que determina los divisores de un número y los devuelva en una lista")
 
 n=int(input("introduce un número: "))
 def divisores (n):

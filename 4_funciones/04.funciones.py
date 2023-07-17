@@ -2,7 +2,7 @@
 4. Ejercicio: Define una función que reciba una lista de números y retorne la suma
 de ellos.
 '''
-print("Ejercicio_4: función suma números de una lista")
+print("Ejercicio_4: función que suma los números de una lista")
 
 n1=int(input("introduce un número: "))
 n2=int(input("introduce un número: "))

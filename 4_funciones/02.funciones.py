@@ -1,7 +1,7 @@
 '''
 2. Ejercicio: Define una función que tome un número y retorne su factorial.
 '''
-print("Ejercicio_2: función factorial")
+print("Ejercicio_2: función factorial de un número")
 
 n=int(input("introduzca un número: "))
 
