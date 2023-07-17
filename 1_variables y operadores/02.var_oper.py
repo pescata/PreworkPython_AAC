@@ -1,14 +1,8 @@
 '''
-1. Ejercicio: Crea una variable llamada nombre y asígnale tu nombre como valor.
-Luego, imprime la variable.
-'''
-name="Alberto"
-print(name)
-
-'''
 2. Ejercicio: Crea dos variables, a y b , y asígnales los valores 5 y 10
 respectivamente. Luego, imprime la suma de a y b .
 '''
+print("Ejercicio_2: suma variables")
 a=5
 b=10
 print(a+b)

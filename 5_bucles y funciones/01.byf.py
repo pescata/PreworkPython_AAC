@@ -1,33 +1,81 @@
 '''
-Ejercicio: Define una función que utilice un bucle para imprimir los primeros n
+1. Ejercicio: Define una función que utilice un bucle para imprimir los primeros n
 números de la serie de Fibonacci.
 '''
+print("Ejercicio_1: función serie Fibonacci con bucle")
+
+def fib(n):
+    pen=0
+    ult=1
+    if n==1:
+        print(f"la serie de Fibonacci de {n} elementos es: ",(0))
+    elif n==2:
+        print(f"la serie de Fibonacci de {n} elementos es: ",(0,1))
+    else:
+        for i in range(n):
+          nuevo=pen+ult
+          pen=ult
+          ult=nuevo
+          print(0,1,nuevo, end=" ")
+
+n=int(input("introduce un número: "))
+if n<=0:
+    print("este número no es válido para genera la serie fibonacci")
+else:
+    fib(n)
+
 
 '''
 2. Ejercicio: Define una función que tome un número y retorne una lista de sus
 divisores.
 '''
+print("Ejercicio_2: divisores")
+
 n=int(input("introduce un número: "))
 def divisores (n):
     resultado=[i for i in range(1,n+1) if n%i==0]
     return resultado
-print(f"los divisores de {n} son los siguientes: ",divisores(n))
+
+if n<=0:
+    print("Esta función no calcula divisores de números menores o iguales a cero")
+else:
+   print(f"los divisores de {n} son: ",divisores(n))
 
 
 '''
 3. Ejercicio: Define una función que tome una lista y retorne una nueva lista con
 los elementos únicos de la lista original.
 '''
+print("Ejercicio_3: elementos únicos")
+
+lista=[1,3,5,65,3,7,9,4,8,6,5,2,12,5,23,65,9,5,2,12,4,1,2,"alberto","lia","lia","lia", "nico","nico","emilia","ana"]
+
+def elementos_unicos(lista):
+    return set(lista)
+
+print("los elementos únicos de la lista son: ",elementos_unicos(lista))
 
 '''
 4. Ejercicio: Define una función que tome un número y retorne la suma de sus
 dígitos.
 '''
+print("Ejercicio_4: suma dígitos de un número")
+
+n=int(input("introduzca un número: "))
+def suma_valores(n):
+    suma=0
+    while n>0:
+        suma=suma+(n%10)
+        n=n//10
+    return suma
+print(f"la suma de los dígitos de {n} es: ",suma_valores(n))
 
 '''
 5. Ejercicio: Define una función que tome una cadena y cuente el número de
 vocales en la cadena.
 '''
+print("Ejercicio_5: número de vocales de una cadena")
+
 
 '''
 6. Ejercicio: Define una función que tome una lista y un número n, y retorne los

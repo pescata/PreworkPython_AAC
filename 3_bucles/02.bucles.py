@@ -1,12 +1,8 @@
 '''
-1. Ejercicio: Imprime los números del 1 al 10 usando un bucle for.
-'''
-for number in range(1,11):
-    print(number)
-
-'''
 2. Ejercicio: Imprime los números pares del 1 al 20 usando un bucle while.
 '''
+print("Ejercicio_2: imprime números pares bucle while")
+
 i=2
 while i<=20:
     print(i)
