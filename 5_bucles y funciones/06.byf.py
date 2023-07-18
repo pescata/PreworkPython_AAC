@@ -13,4 +13,3 @@ def primeros_n_elementos(lista, n):
   else:
     return lista[:n]
 print(f"los primeros {n} elementos de la lista son: ",primeros_n_elementos([1, 2, 3, 4, 5, 6, 7], n))
-
