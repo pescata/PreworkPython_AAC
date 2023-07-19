@@ -11,8 +11,8 @@ def suma_acumulada(lista):
     suma=0
     suma_acumulada=[]
     for i in lista:
-        suma=+i
+        suma+=i
         suma_acumulada.append(suma)
     return suma_acumulada
 
-print(suma_acumulada(lista))
+print("lista acumulada: ",suma_acumulada(lista))

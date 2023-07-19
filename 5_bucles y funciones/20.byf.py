@@ -9,4 +9,3 @@ def reverso_lista(lista_1):
     return lista_1[::-1]
 
 print("resultado: ",reverso_lista(lista_1))
-
